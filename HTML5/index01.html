@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <title>HTML Forms</title>
+</head>
+
+<body>
+  <form>
+    First Name: <input type="text" name="firstname"><br>
+    Last Name: <input type="text" name="lastname"><br>
+    Email: <input type="email" name="email" required><br>
+    Password: <input type="password" name="password" min="6"><br>
+    Birthday: <input type="date" name="birthday"><br>
+    
+    <!-- radio buttons -->
+    *Gender: <br>
+    <input type="radio" name="gender" value="male">Male<br>
+    <input type="radio" name="gender" value="female">Female<br>
+    <input type="radio" name="gender" value="other">Other<br>
+   
+    <!-- checkbox -->
+    Pets: <br>
+    <input type="checkbox" name="cats">Cats<br>
+    <input type="checkbox" name="bunnies">Bunnies<br>
+
+    <!-- dropdown -->
+    Cars: <br>
+    <select name="cars">
+      <option value="audi">Audi</option>
+      <option value="bmw">BMW</option>
+    </select>
+    <p>
+      The <em>value</em> attribute specifies the value to be sent to a server when a form is submitted. <br>
+      The content between the opening &lt;option> and closing &lt;/option> tags is what the browsers will display in a drop-down list. <br>
+      However, the value of the value attribute is what will be sent to the server when a form is submitted. <br>
+      <br>
+      Note: If the value attribute is not specified, the content will be passed as a value instead.
+    </p>
+
+    <input type="submit" value="Register">
+    <input type="reset">
+
+
+    <p>
+      After clicking "submit" with the following info: <br>
+      First Name: First <br>
+      Last Name: Last <br>
+      Email: first.last@fl.com <br>
+      Password: firstlast <br>
+      Birthday: 11/9/2021 <br>
+      Gender: Male <br>
+      Pets: Cats & Bunnies <br>
+      Cars: Audi <br>
+      <br>
+      I get the following query string: <br>
+      ?firstname=First
+      &lastname=Last
+      &email=first.last%40fl.com
+      &password=firstlast
+      &birthday=2021-11-09
+      &gender=male
+      &cats=on
+      &bunnies=on
+      &cars=audi
+      <br>
+      HTML5 default form method is "GET", which results in the above query string. <br>
+      It is better to use "POST" so the information won't be exposed. More notes should be in around backend section when I get to it. 
+    </p>
+
+  </form>
+</body>
+</html>
+
+<!-- * group radio buttons by using the 'name' attribute -->
+
+
+
+
