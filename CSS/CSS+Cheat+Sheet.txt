@@ -23,7 +23,7 @@ element element
 // [element1 element2] select element2 that are inside of element1
 
 element > element
-// [element1 > element2] select element2 that are only child of element1
+// [element1 > element2] select all element2 that are child of element1
 
   e.g.
   CSS - h2 > p
@@ -40,8 +40,11 @@ element > element
     <p>Homepage</p>
   </h2>
 
-element + element
+element + element (adjacent sibling selector)
 // [element1 + element2] select element2 that is immediately after element1
+
+element ~ element (general sibling selector)
+// [element1 ~ element2] select all siblings (element2) of element1
 
 :hover
 

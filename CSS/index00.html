@@ -11,5 +11,20 @@
     <!-- <h3>The element right after h2 but not a &lt;p></h3> -->
     <p>Homepage</p>
 
+    <div>
+      <h1>First Heading 1 in div</h1>
+      <h1>Second Heading 1 in div</h1>
+      <h1>Last Heading 1 in div</h1>
+    </div>
+
+    <!-- :first-child won't work here because the parent is body, and the first child of body is <h2>Home</h2>, which is not a <h1> element -->
+    <h1>First Heading 1 in body</h1>
+    
+    <h1>Second Heading 1 in body</h1>
+
+    <!-- :last-child would still work because it is the last child of body -->
+    <h1>Last Heading 1 in body</h1>
+    <!-- if I add this element below then it would no longer work -->
+    <!-- <h2>:last-child Test</h2> -->
   </body>
 </html>
