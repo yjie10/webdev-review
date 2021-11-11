@@ -1,0 +1,40 @@
+.boxmodel {
+  border: 5px solid green;
+  display: inline-block;
+
+  /* ↑ → ↓ ← */
+  /* ↑↓ | ←→ */
+
+  /* space inside the border */
+  padding: 5px 10px 20px 15px;
+  
+  /* space outside the border */
+  margin: 0 20px;
+
+  /* content size can be changed with width/height */
+  width: 50px;
+  height: 30px;
+}
+
+hr {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.em {
+  font-size: 20px;
+}
+
+.em span {
+  font-size: 2em;
+  /* font-size: 40px; */
+}
+
+.rem {
+  font-size: 10px;
+}
+
+.rem span {
+  font-size: 2rem;
+  /* font-size: 32px; */
+}
