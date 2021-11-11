@@ -1,0 +1,58 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class
+// good for selecting a group of elements
+
+#id
+// similar to class but is used to identify a single element
+
+*
+// universal selector, selects all elements
+
+element
+element, element
+
+element element 
+// [element1 element2] select element2 that are inside of element1
+
+element > element
+// [element1 > element2] select element2 that are only child of element1
+
+  e.g.
+  CSS - h2 > p
+  
+  HTML 1: Will NOT apply because <p>'s parent is <div> and not <h2>
+  <h2>Home
+    <div>
+      <p>Homepage</p>
+    </div>
+  </h2>
+
+  HTML 2: Will apply because <p>'s parent is <h2>
+  <h2>Home
+    <p>Homepage</p>
+  </h2>
+
+element + element
+// [element1 + element2] select element2 that is immediately after element1
+
+:hover
+
+:last-child
+:first-child
+// just as what the name suggests
+
+!important (not recommended)
+// overwrites all other rules, basically erases the cascading style sheet rules
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
