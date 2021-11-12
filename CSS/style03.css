@@ -1,0 +1,34 @@
+.card {
+  /* display: inline-block; */
+  /* display: block; */
+  font-size: 10em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.container {
+  /* display: flex; */
+  display: grid;
+
+  /* important property of gird, will be using for almost all grid display */
+  /* repeat(repeat n times, the value) */
+  /* grid-template-columns: repeat(3, 1fr); */
+
+  /* grid-template-columns: auto 1fr 2fr; */
+
+  /* most common grid pattern when it comes to website layouts */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  
+  gap: 20px;
+
+  /* justify-items: start; */
+}
