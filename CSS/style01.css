@@ -4,6 +4,11 @@ h1 {
   margin-right: 50%;
 }
 
+h4 {
+  display: inline;
+  margin-right: 35px;
+}
+
 .boxmodel {
   border: 5px solid green;
   display: inline-block;
