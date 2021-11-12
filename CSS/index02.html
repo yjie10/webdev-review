@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexbox</title>
+  <link rel="stylesheet" type="text/css" href="style02.css">
+</head>
+
+<body>
+
+  <h1>Flexbox</h1>
+  
+  Resources: <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a><br>
+  <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS-Tricks: A Complete Guide to Flexbox</a>
+
+  <hr>
+
+  <p>
+    <strong>flex-wrap:</strong> nowrap | wrap | wrap-reverse; <br>
+    The default is nowrap, where all flex items will try to fit onto one line. <br>
+    
+    <ul>
+      <li><em>wrap:</em> flex items will wrap onto multiple lines, from top to bottom. </li>
+      <li><em>warp-reverse:</em> flex items will wrap onto multiple lines, from bottom to top. </li>
+    </ul>
+  </p>
+
+  <hr>
+
+  <p>
+    <strong>justify-content:</strong> flex-start | flex-end | center | space-between | space-around | space-evenly; <br>
+    The default is flex-start, where items are packed toward the start of the flex-direction.     
+
+    <ul>
+      <li><em>flex-start:</em> Item align to the left side of the container. </li>
+      <li><em>flex-end:</em> Items align to the right side of the container. </li>
+      <li><em>center:</em> Items align at the center of the container. </li>
+      <li><em>space-between:</em> Items display with equal spacing between them. </li>
+      <li><em>space-around:</em> Items display with equal spacing around them. </li>
+      <li><em>space-evenly:</em> Items are distributed so that the spacing between any two items and the space to edges is equal. </li>
+    </ul>
+  </p>
+
+
+  <hr>
+
+  <p>
+    <strong>align-items:</strong> flex-start | flex-end | center | baseline | stretch; <br>
+    The default is stretch, where it stretch to fill the container. <br>
+
+    <ul>
+      <li><em>flex-start:</em> Items align to the top of the container. </li>
+      <li><em>flex-end:</em> Items align to the bottom of the container. </li>
+      <li><em>center:</em> Items align at the vertical center of the container. </li>
+      <li><em>baseline:</em> Items display at the baseline of the container. </li>
+      <li><em>stretch:</em> Items are stretched to fit the container. </li>
+    </ul>
+  </p>
+
+  <hr>
+
+  <p>
+    <strong>flex-direction: </strong> row | row-reverse | column | column-reverse; <br>
+    The default is row. <br>
+
+    <ul>
+      <li><em>row:</em> Items are placed the same as the text direction. </li>
+      <li><em>row-reverse:</em> Items are placed opposite to the text direction. </li>
+      <li><em>column:</em> Items are placed top to bottom. </li>
+      <li><em>column-reverse:</em> Items are placed bottom to top. </li>
+    </ul>
+  </p>
+
+  <hr>
+
+  <p>
+    <strong>flex-flow:</strong> flex-direction flex-wrap; <br>
+    The two properties <strong>flex-direction</strong> and <strong>flex-wrap</strong> are used often
+    together. <br>
+    The property <strong>flex-flow</strong> is the shorthand property combining both
+    flex-direction and flex-wrap. <br>
+  </p>
+
+  <hr>
+
+  <p>
+    <strong>align-content</strong> flex-start | flex-end | center | space-between | space-around | stretch; <br>
+    The default is normal where items are packed in their default position if no value was set. <br>
+    <br>
+    <strong>NOTE:</strong> This property only takes effect on multi-line flexible containers, where flex-wrap
+    is set to either wrap or wrap-reverse. A single-line flexible container will not reflect align-content. <br>
+    It determines the spacing between the lines, and therefore has no effect if there's only one line. 
+  
+    <ul>
+      <li><em>flex-start:</em> Lines are packed at the top of the container. </li>
+      <li><em>flex-end:</em> Lines are packed at the bottom of the container. </li>
+      <li><em>center:</em> Lines are packed at the vertical center of the container. </li>
+      <li><em>space-between:</em> Lines display with equal spacing between them. </li>
+      <li><em>space-around:</em> Lines display with equal spacing around them. </li>
+      <li><em>stretch:</em> Lines are stretched to fit the container. </li>
+    </ul>
+  
+  </p>
+
+  <hr>
+
+  <div class="container">
+    <div class="green"></div>
+    <div class="blue"></div>
+    <div class="green"></div>
+    <div class="blue"></div>
+    <div class="green"></div>
+    <div class="blue"></div>
+  </div>
+
+    <h4><a href="index01.html">← Box Model & em vs rem</a></h4>
+    <!-- <h4><a href="">Grid →</a></h4> -->
+
+</body>
+
+</html>

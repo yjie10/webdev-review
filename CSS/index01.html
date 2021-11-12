@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Box Model & em vs rem</title>
+    <link rel="stylesheet" type="text/css" href="style01.css">
+  </head>
+
+  <body>
+    <h1>Box Model</h1>
+    <div class="boxmodel">Div A</div>
+    <div class="boxmodel">Div B</div>
+    <div class="boxmodel">Div C</div>
+
+    <br><br><br>
+
+    <hr>
+  
+    <p>
+      <h1>em vs rem</h1>
+      em is you want the size to be n times the containing element, in other words, relative to containing element. <br>
+      The p element font-size with class em is 20px. <br>
+      The font-size of em Example wrapped in span is 2em, which results in 2 x 20px = 40px. 
+      <br>
+      <p class="em"><span>em Example</span></p>
+    
+      <hr>
+
+      <br>
+      rem is in relation to the size of the root element. In this case, the html element. <br>
+      In this case, the font-size with class rem won't affect the font-size of rem Example wrapped in span. <br>
+      According to sitePoint, the base size of the root element (html) is 16px. <br>
+      The font-size of rem Example wrapped in span is 2rem, which results in 2 x 16px (base) = 32px.
+      <p class="rem"><span>rem Example</span></p>
+    </p>
+  
+    <h4><a href="index00.html">← CSS Selectors</a></h4>
+    <h4><a href="index02.html">Flexbox →</a></h4>
+
+  </body>
+</html>

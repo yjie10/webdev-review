@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RoboPage</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<h1>Robot Friend</h1>
+
+	<p>
+		Notes on <em>margin: 0 auto:</em> <a href="https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin-0-auto" target="_blank">Stackoverflow</a>
+		<br>
+		<br>
+		The object will sit centrally within its parent container. <br>
+
+		Specifying <em>auto</em> as second parameter basically tells the browser to
+		automatically determine left and right margins itself, which it does by setting them equally. <br>
+		<br>
+		The first parameter 0 indicates that the top and bottom margins will both be set to 0. <br>
+		<br>
+		<em>margin-top:</em> 0; <br>
+		<em>margin-bottom:</em> 0; <br>
+		<em>margin-left:</em> auto; <br>
+		<em>margin-right:</em> auto; <br>
+		<br>
+
+		e.g. if the parent is 100px and the child is 40px, then auto property will
+		determine that there's a free space of 60px (100px - 40px) and the "auto" left and right
+		margin will be 60px / 2 = 30px. 
+
+
+
+	</p>
+
+
+
+	<div class="robots">
+		<div class="android"> 
+			<div class="head">
+				<div class="eyes"> 
+					<div class="left_eye"></div> 
+					<div class="right_eye"></div>
+				</div> 
+			</div> 
+			<div class="upper_body"> 
+				<div class="left_arm"></div> 
+				<div class="torso"></div> 
+				<div class="right_arm"></div> 
+			</div> 
+			<div class="lower_body"> 
+				<div class="left_leg"></div> 
+				<div class="right_leg"></div> 
+			</div> 
+		</div>
+	</div>
+</body>
+</html>
