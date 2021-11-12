@@ -4,8 +4,6 @@
 - HTML Basics
 - HTML Forms
 
-<hr />
-
 ## CSS
 - CSS Selectors
 - Box Model & em vs rem
