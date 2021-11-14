@@ -6,7 +6,10 @@ JAVASCRIPT TYPES
 2. String
 3. Boolean
 4. Undefined
+// empty variable
 5. Null
+// empty object
+
 <!-- 6. Symbol (new in ECMAScript 6) -->
 7. Object
 
@@ -43,15 +46,32 @@ JAVASCRIPT LOGICAL OPERATORS
 
 JAVASCRIPT FUNCTIONS
 -----------------
+1. Function Expression
+/* assigning the function to a variable. Unlike function declaration, technically the
+function does not (need to) have a name. This is called Anonymous Function. */
 var a = function name() {}
+
+2. Function Declaration
 function name() {}
-return
+
+3. return
+returns the value. 
+
+arguments vs parameters
+pretty much the same thing. 
+
 <!-- () => (new in ECMAScript 6) -->
 
 JAVASCRIPT DATA STRUCTURES
 -----------------
 Array
-Object
+
+Object (also a JS type)
+a collection of properties. 
+
+an array can contain an object, and vice versa, 
+object can contain an array as its property. 
+
 
 JAVASCRIPT LOOPING
 -----------------
