@@ -43,9 +43,20 @@ JAVASCRIPT LOGICAL OPERATORS
 
 JAVASCRIPT FUNCTIONS
 -----------------
+1. Function Expression
+/* assigning the function to a variable. Unlike function declaration, technically the
+function does not (need to) have a name. This is called Anonymous Function. */
 var a = function name() {}
+
+2. Function Declaration
 function name() {}
-return
+
+3. return
+returns the value. 
+
+arguments vs parameters
+pretty much the same thing. 
+
 <!-- () => (new in ECMAScript 6) -->
 
 JAVASCRIPT DATA STRUCTURES
