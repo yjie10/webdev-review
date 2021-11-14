@@ -6,7 +6,10 @@ JAVASCRIPT TYPES
 2. String
 3. Boolean
 4. Undefined
+// empty variable
 5. Null
+// empty object
+
 <!-- 6. Symbol (new in ECMAScript 6) -->
 7. Object
 
@@ -62,7 +65,13 @@ pretty much the same thing.
 JAVASCRIPT DATA STRUCTURES
 -----------------
 Array
-Object
+
+Object (also a JS type)
+a collection of properties. 
+
+an array can contain an object, and vice versa, 
+object can contain an array as its property. 
+
 
 JAVASCRIPT LOOPING
 -----------------
