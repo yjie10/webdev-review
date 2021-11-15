@@ -9,3 +9,6 @@
 - Box Model & em vs rem
 - Flexbox
 - CSS Grid (Incomplete)
+
+## JavaScript
+- Exercise 1 - 7
