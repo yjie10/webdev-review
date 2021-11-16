@@ -1,12 +1,12 @@
 JAVASCRIPT TYPES
 -----------------
 1. Number 
-// 
-
 2. String
 3. Boolean
+
 4. Undefined
 // empty variable
+
 5. Null
 // empty object
 
