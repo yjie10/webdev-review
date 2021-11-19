@@ -1,7 +1,7 @@
 // Solve the below questions:
 
 // #1 Turn this array into a new array: [1,2,3,[4],[5]]. Bonus if you can do it on one line
-const array = [[1],[2],[3],[[[4]]],[[[5]]]]
+const array = [[1], [2], [3], [[[4]]], [[[5]]]]
 //Solution:
 console.log(array.flat(2))
 
