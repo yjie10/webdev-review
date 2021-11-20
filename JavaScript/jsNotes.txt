@@ -1,0 +1,36 @@
+JS: a single-threaded language that can be non-blocking.
+ - single-threaded means there's one call stack only: do one thing at a time; 
+ - FILO; LIFO - top of call stack runs first
+
+ OS Related
+  - other languages can be muti-threaded, meaning having multiple call stacks
+  - can lead to deadlocks
+
+WHAT IS A PROGRAM?
+
+- allocate memory
+- parse and execute / read and run commands
+
+JS Engine consists of two parts: 1) Memory Heap (where allocation happens) and 2) Call Stack (where code is executed)
+
+Memory
+  - Memory Leak happens when the allocated memory is not used. 
+
+Call Stack
+  - Read and executes scripts
+
+const one = () => {
+  const two = () => {
+    console.log('4');
+  }
+  two();
+}
+
+one();
+
+console.log('4') // gets put on call stack third / first to remove from call stack after executing 
+two() // gets put on call stack second / second to remove from call stack after executing
+one() // gets put on call stack first / last to remove; call stack becomes empty
+
+
+Asynchronous vs Synchronous
