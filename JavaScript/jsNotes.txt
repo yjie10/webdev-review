@@ -32,5 +32,31 @@ console.log('4') // gets put on call stack third / first to remove from call sta
 two() // gets put on call stack second / second to remove from call stack after executing
 one() // gets put on call stack first / last to remove; call stack becomes empty
 
+// following code will result in stack overflow
+function foo() {
+  foo(); 
+} // endless recursion
 
 Asynchronous vs Synchronous
+Synchronous
+  - pros: predictable, knows what comes next
+  - cons: if there's a task that will take long time in between, program will freeze until the task gets done (slow)
+
+Asynchronous
+setTimeout is not really a part of JS, but the Web API.
+to not block, can be async with callback functions. 
+
+// async
+console.log('1');
+setTimeout(() => {
+  console.log('2');
+}, 2000); 
+console.log('3');
+
+// CALL STACK
+
+// WEB API
+
+// CALLBACK QUEUE
+
+// EVENT LOOP
