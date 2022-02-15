@@ -23,3 +23,15 @@ Promise.all(urls.map(url => {
   return fetch(url).then(resp => resp.json())
 })).then(res => console.log(res))
 ```
+
+- fetch, by default, does a GET request; if want other to be performed, need to specify; 
+- pass in a second parameter, describing the request; 
+
+```
+fetch('http://localhost:3000/signin', {
+  // describe request
+  method: 'POST',
+  header: {'Content-Type': 'application/json'}, // accepts an object
+  body: JSON.stringify({  }) // must match "Content-Type" header
+})
+```
