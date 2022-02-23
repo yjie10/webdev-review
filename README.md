@@ -9,7 +9,3 @@
 - Box Model & em vs rem
 - Flexbox
 - CSS Grid (Incomplete)
-
-## JavaScript
-- Babel is a JS compiler. 
-- Array is an object. 

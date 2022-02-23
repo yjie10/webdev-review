@@ -1,19 +1,31 @@
-h1 {
-  background-color: black;
-  color: white;
+* {
+  box-sizing: none;
+}
+
+body {
   width: 50%;
 }
 
-#intro {
-  font-size: 15px;
+h1 {
+  background-color: black;
+  color: white;
 }
 
 ul li {
   list-style-type: square;
+  text-decoration: underline;
 }
 
 hr {
-  width: 50%;
   border-color: black;
   margin: 20px 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  /* text-decoration: none; */
+  text-decoration: underline;
+  color: inherit;
 }
