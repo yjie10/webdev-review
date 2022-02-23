@@ -4,3 +4,5 @@
 // .push() - adds item to the end of the array;
 
 - 要access last element可以直接arr[arr.length - 1];
+
+// .splice() returns the spliced elements; 改original array
