@@ -21,3 +21,16 @@ myArray.pop();
 myArray.push("Takato");
 myArray.push("Girumon");
 const myString = myArray.map((name, index) => `${name} (${index})`).join("-");
+
+// 分割线
+
+const birds = ["Parrots", "Falcons", "Eagles", "Emus", "Caracaras", "Egrets"];
+
+// Add your code here
+for (let i = 0; i < birds.length; i++) {
+  if (birds[i] === "Eagles") {
+    birds.splice(i, 1);
+  }
+}
+
+const eBirds = birds.filter(bird => bird.startsWith('E'));
