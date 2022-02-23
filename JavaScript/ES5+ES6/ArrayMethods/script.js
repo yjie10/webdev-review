@@ -13,4 +13,7 @@ const newIncludesArray = myArray.includes(3); // returns true since 3 exists in 
 const newIncludesArray2ndParam = myArray.includes(2, 3) // 2nd param (optional) is the index we want to start searching
 // object is unique; it gets its own reference in memory
 
+// everytime an object is instantiated, JS is storing that object as a brand new reference in memory
+// JS is not comparing the value, it is comparing if the reference in the memory is the same
+
 // 
