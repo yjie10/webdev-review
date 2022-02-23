@@ -11,5 +11,6 @@ const newFilterArray = myArray.filter(() => el > 2); // whatever is true is kept
 // includes - checks if the element we pass in exists in the array
 const newIncludesArray = myArray.includes(3); // returns true since 3 exists in array
 const newIncludesArray2ndParam = myArray.includes(2, 3) // 2nd param (optional) is the index we want to start searching
+// object is unique; it gets its own reference in memory
 
 // 

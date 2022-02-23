@@ -11,4 +11,5 @@
 - CSS Grid (Incomplete)
 
 ## JavaScript
-- Exercise 1 - 7
+- Babel is a JS compiler. 
+- Array is an object. 
