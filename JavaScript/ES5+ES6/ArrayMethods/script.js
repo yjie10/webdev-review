@@ -23,3 +23,7 @@ myArray.find(el => el > 4); // will only return 5
 
 const peopleArray = [{ id: 1 }, { id: 8 }, { id: 6 }];
 peopleArray.find(person => person.id === 4);
+
+// reduce
+// say I want to add all the values in the array, we can use reduce
+const newReduceArray = myArray.reduce(((accumulator, currentEl) => accumulator + currentEl), 0);
