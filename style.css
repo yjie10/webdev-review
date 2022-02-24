@@ -13,7 +13,6 @@ h1 {
 
 ul li {
   list-style-type: square;
-  text-decoration: underline;
 }
 
 hr {
@@ -25,7 +24,26 @@ a,
 a:hover,
 a:focus,
 a:active {
-  /* text-decoration: none; */
   text-decoration: underline;
   color: inherit;
+}
+
+.resource {
+  background-color: green;
+  color: white;
+}
+
+.resource:hover {
+  background-color: #03ad03;
+  color: white;
+}
+
+.resource:active,
+.resource:visited {
+  color: white;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
 }

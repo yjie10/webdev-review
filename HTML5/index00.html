@@ -2,29 +2,72 @@
 <html>
   <head>
     <title>HTML Basics</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✏️</text></svg>"
+    />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
   </head>
   <body>
     <h1>HTML Basics</h1>
-    <p>
-      All HTML documents must start with a &lt;!DOCTYPE&gt;* declaration. <br />
-      The declaration is not an HTML tag. It is an "information" to the browser
-      about what document type to expect. <br />
-      &lt;!DOCTYPE html&gt; is the declaration for HTML5. <br />
-      -
-      <a href="https://www.w3schools.com/tags/tag_doctype.asp" target="_blank"
-        >W3 Schools: HTML &lt;!DOCTYPE&gt; Delcaration</a
-      >
-    </p>
+    <ul>
+      <li>
+        All HTML documents must start with a !DOCTYPE* declaration.
+        <br />
 
-    <p>
-      Self-closing tags include &lt;br&gt; (line break) and &lt;hr&gt;
-      (horizontal line). <br />
-      The syntax &lt;br /&gt; is from XHTML, a stricter and more XML-based
-      version of HTML. <br />
+        <em
+          >The declaration is not an HTML tag. It is an "information" to the
+          browser about what document type to expect.
+          <br />
+          &lt;!DOCTYPE html&gt; is the declaration for HTML5. <br />
+        </em>
+
+        <a
+          class="resource"
+          href="https://www.w3schools.com/tags/tag_doctype.asp"
+          target="_blank"
+          >W3 Schools: HTML &lt;!DOCTYPE&gt; Delcaration</a
+        >
+      </li>
       <br />
-      Image tag is also a self-closing tag.
-    </p>
-    <h4><a href="index01.html">HTML Forms</a></h4>
+
+      <li>
+        <strong>HTML elements: </strong>An HTML element is defined by a start
+        tag, some content, and an end tag.
+      </li>
+
+      <br />
+
+      <li>
+        <strong>Self-Closing Tag: </strong>A type of tag in HTML that does not
+        need to be closed by a closing tag. <br />
+        <em
+          >Examples include &lt;br&gt; (line break), &lt;hr&gt; (horizontal
+          line), &lt;img&gt;, and &lt;input&gt; tags.</em
+        >
+        <br />
+
+        <em
+          >The syntax &lt;br /&gt; (with a slash) is from XHTML, a stricter and
+          more XML-based version of HTML, there is no meaning of slash even if
+          it was used, it will be ignored by browsers. <br />
+          P.S. It's good to practice to close it because in libraries like
+          React.js, tags needs to be closed or else it will throw an error. </em
+        ><br />
+
+        <a
+          class="resource"
+          href="https://www.tutorialstonight.com/self-closing-tags-in-html.php"
+          target="_blank"
+          >Tutorials Tonight: HTML Self Closing Tags</a
+        >
+      </li>
+    </ul>
+    <h4 class="footer-nav">
+      <a>...</a>
+      <a href="../index.html">Back To Homepage</a>
+      <a href="index01.html">HTML Forms →</a>
+    </h4>
   </body>
 </html>
 
